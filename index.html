@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Rendas</h2>
+    Renda Fixa: <input type="number" id="r1" placeholder="R$ 0.00" step="0.01"><br/ > <br />
+    Renda Extra: <input type="number" id="r2" placeholder="R$ 0.00" step="0.01"><br /> <br />
+    <button onclick="add1()">Adicionar</button><br /><br />
+    Renda Fixa: <span id="result1"></span><br />
+    Renda Extra: <span id="result2"></span><br />
+    Renda Total: <span id="renda"></span><br />
+
+    <h2>Despesas</h2>
+
+    <p>Conta de água:</p>
+    Valor: <input type="number" id="c1" >
+    <p>Conta de Energia:</p>
+    Valor: <input type="number" id="c2" >
+    <p>Conta de Internet:</p>
+    Valor: <input type="number" id="c3" >
+
+    <br /> <br />
+
+    <button onclick="calc()">Calcular</button><br /><br/>
+
+    <input type="text" id="" placeholder="Nome da despesa">
+    <button>Adicionar despesa</button>
+
+    <br /> <br />
+
+    Saldo: R$ <span id="saldo"></span> <br />
+    Saída: R$ - <span id="saida"></span>
+
+    <script src="script.js"></script>
+</body>
+</html>
